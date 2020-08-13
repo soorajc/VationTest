@@ -18,6 +18,10 @@
 		5FC295F994079DE67C380334 /* libPods-testvation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A01EA1880D4E9F031CB7E2A /* libPods-testvation.a */; };
 		60DCC2041635C397A26EE418 /* libPods-testvation-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02171D0599B004018D1F3269 /* libPods-testvation-tvOSTests.a */; };
 		71B5EC3524E4F8C800834A32 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71B5EC3424E4F8C800834A32 /* GoogleService-Info.plist */; };
+		71B5EC3924E54A0100834A32 /* Roboto Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71B5EC3824E54A0100834A32 /* Roboto Regular.ttf */; };
+		71B5EC3B24E54A4500834A32 /* Avenir Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71B5EC3A24E54A4500834A32 /* Avenir Black.ttf */; };
+		71B5EC3D24E5792500834A32 /* SF Pro Text Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71B5EC3C24E5792400834A32 /* SF Pro Text Semibold.ttf */; };
+		71B5EC3F24E579A900834A32 /* Avenir Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71B5EC3E24E579A800834A32 /* Avenir Heavy.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9C499A471C49BA680EC89C1F /* libPods-testvation-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BE00D9D2C7D6EBB3E1F9CF /* libPods-testvation-tvOS.a */; };
 		E3D23F82254FF1692039892E /* libPods-testvation-testvationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57669096840C02F890075B81 /* libPods-testvation-testvationTests.a */; };
@@ -67,6 +71,10 @@
 		6D17FF90B7524F4ABEDA9902 /* Pods-testvation-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testvation-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-testvation-tvOSTests/Pods-testvation-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		71ADD40D4CB045ED8DE7DD70 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		71B5EC3424E4F8C800834A32 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71B5EC3824E54A0100834A32 /* Roboto Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto Regular.ttf"; sourceTree = "<group>"; };
+		71B5EC3A24E54A4500834A32 /* Avenir Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Black.ttf"; sourceTree = "<group>"; };
+		71B5EC3C24E5792400834A32 /* SF Pro Text Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pro Text Semibold.ttf"; sourceTree = "<group>"; };
+		71B5EC3E24E579A800834A32 /* Avenir Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Heavy.ttf"; sourceTree = "<group>"; };
 		736D2562131042CF88D64D9E /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		7BC82336E7A84C90BCC47C28 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = testvation/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -220,6 +228,10 @@
 		F610ADB2508E4ECEB22E8B8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				71B5EC3A24E54A4500834A32 /* Avenir Black.ttf */,
+				71B5EC3E24E579A800834A32 /* Avenir Heavy.ttf */,
+				71B5EC3C24E5792400834A32 /* SF Pro Text Semibold.ttf */,
+				71B5EC3824E54A0100834A32 /* Roboto Regular.ttf */,
 				A25A60C69E6248A5848C583B /* AntDesign.ttf */,
 				1777328F4E5A4E98A7425BD5 /* Entypo.ttf */,
 				71ADD40D4CB045ED8DE7DD70 /* EvilIcons.ttf */,
@@ -384,8 +396,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				71B5EC3F24E579A900834A32 /* Avenir Heavy.ttf in Resources */,
+				71B5EC3924E54A0100834A32 /* Roboto Regular.ttf in Resources */,
+				71B5EC3D24E5792500834A32 /* SF Pro Text Semibold.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				71B5EC3524E4F8C800834A32 /* GoogleService-Info.plist in Resources */,
+				71B5EC3B24E54A4500834A32 /* Avenir Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

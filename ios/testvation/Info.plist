@@ -52,6 +52,9 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>SF Pro Text Semibold.ttf</string>
+		<string>Avenir Heavy.ttf</string>
+		<string>Roboto Regular.ttf</string>
 		<string>AntDesign.ttf</string>
 		<string>Entypo.ttf</string>
 		<string>EvilIcons.ttf</string>

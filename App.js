@@ -7,28 +7,18 @@
  */
 
 import React from 'react';
-import {View, Text} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import WelcomeScreen from './src/screens/welcome';
 
 const Stack = createStackNavigator();
-
-const TestView = () => {
-  return (
-    <View>
-      <Text>Dummy view</Text>
-      <Icon name="google" size={20} />
-    </View>
-  );
-};
 
 const StackConfig = () => {
   return (
     <Stack.Navigator initialRouteName="Home" headerMode="none">
       <Stack.Screen
         name="Home"
-        component={TestView}
+        component={WelcomeScreen}
         options={{headerTitle: null}}
       />
     </Stack.Navigator>
