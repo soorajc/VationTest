@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>491714431475-lnc40qbirouod1smeu0tnpfdq0q45jht.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.491714431475-lnc40qbirouod1smeu0tnpfdq0q45jht</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>491714431475-se6ljf927onvgaio8l58ctfbo06unv36.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBOTckzYziwBT8dePTFS_C0KKADFmnYN1U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>491714431475</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.Vationtest</string>
+	<key>PROJECT_ID</key>
+	<string>vationtest-be99b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vationtest-be99b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:491714431475:ios:79fd1a69701663f33c2a86</string>
+	<key>DATABASE_URL</key>
+	<string>https://vationtest-be99b.firebaseio.com</string>
+</dict>
+</plist>

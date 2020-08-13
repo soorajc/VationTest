@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "491714431475",
+    "firebase_url": "https://vationtest-be99b.firebaseio.com",
+    "project_id": "vationtest-be99b",
+    "storage_bucket": "vationtest-be99b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491714431475:android:d4feecfdc3439cbf3c2a86",
+        "android_client_info": {
+          "package_name": "com.testvation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491714431475-se6ljf927onvgaio8l58ctfbo06unv36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.testvation",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "491714431475-v8fujuv8fv9sgedk52qq37igf6vl7bg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnPBJWse4sak4PeK_Gxytf8VJn6k2kmvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491714431475-v8fujuv8fv9sgedk52qq37igf6vl7bg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
