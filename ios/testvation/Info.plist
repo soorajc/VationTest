@@ -52,6 +52,8 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>InterRegular.ttf</string>
+		<string>InterSemiBold.ttf</string>
 		<string>SF Pro Text Semibold.ttf</string>
 		<string>Avenir Heavy.ttf</string>
 		<string>Roboto Regular.ttf</string>

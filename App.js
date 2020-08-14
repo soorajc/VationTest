@@ -1,5 +1,5 @@
 /**
- * Sample React Native App
+ * Vation Test React Native App
  * https://github.com/facebook/react-native
  *
  * @format

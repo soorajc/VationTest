@@ -22,6 +22,8 @@
 		71B5EC3B24E54A4500834A32 /* Avenir Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71B5EC3A24E54A4500834A32 /* Avenir Black.ttf */; };
 		71B5EC3D24E5792500834A32 /* SF Pro Text Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71B5EC3C24E5792400834A32 /* SF Pro Text Semibold.ttf */; };
 		71B5EC3F24E579A900834A32 /* Avenir Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71B5EC3E24E579A800834A32 /* Avenir Heavy.ttf */; };
+		71E5193324E69F50000C3D59 /* InterSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71E5193124E69F4F000C3D59 /* InterSemiBold.ttf */; };
+		71E5193424E69F50000C3D59 /* InterRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71E5193224E69F4F000C3D59 /* InterRegular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9C499A471C49BA680EC89C1F /* libPods-testvation-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BE00D9D2C7D6EBB3E1F9CF /* libPods-testvation-tvOS.a */; };
 		E3D23F82254FF1692039892E /* libPods-testvation-testvationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57669096840C02F890075B81 /* libPods-testvation-testvationTests.a */; };
@@ -75,6 +77,8 @@
 		71B5EC3A24E54A4500834A32 /* Avenir Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Black.ttf"; sourceTree = "<group>"; };
 		71B5EC3C24E5792400834A32 /* SF Pro Text Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Pro Text Semibold.ttf"; sourceTree = "<group>"; };
 		71B5EC3E24E579A800834A32 /* Avenir Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Heavy.ttf"; sourceTree = "<group>"; };
+		71E5193124E69F4F000C3D59 /* InterSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterSemiBold.ttf; sourceTree = "<group>"; };
+		71E5193224E69F4F000C3D59 /* InterRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterRegular.ttf; sourceTree = "<group>"; };
 		736D2562131042CF88D64D9E /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		7BC82336E7A84C90BCC47C28 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = testvation/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -228,6 +232,8 @@
 		F610ADB2508E4ECEB22E8B8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				71E5193224E69F4F000C3D59 /* InterRegular.ttf */,
+				71E5193124E69F4F000C3D59 /* InterSemiBold.ttf */,
 				71B5EC3A24E54A4500834A32 /* Avenir Black.ttf */,
 				71B5EC3E24E579A800834A32 /* Avenir Heavy.ttf */,
 				71B5EC3C24E5792400834A32 /* SF Pro Text Semibold.ttf */,
@@ -401,6 +407,8 @@
 				71B5EC3D24E5792500834A32 /* SF Pro Text Semibold.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				71B5EC3524E4F8C800834A32 /* GoogleService-Info.plist in Resources */,
+				71E5193424E69F50000C3D59 /* InterRegular.ttf in Resources */,
+				71E5193324E69F50000C3D59 /* InterSemiBold.ttf in Resources */,
 				71B5EC3B24E54A4500834A32 /* Avenir Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

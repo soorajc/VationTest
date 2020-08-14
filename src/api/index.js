@@ -33,3 +33,13 @@ export const signInWithGoogleAccount = async () => {
     return 'sign_in_error';
   }
 };
+
+export const logOut = async () => {
+  try {
+    await auth().signOut();
+    await GoogleSignin.signOut();
+    return 'success';
+  } catch (error) {
+    return 'log_out_error';
+  }
+};

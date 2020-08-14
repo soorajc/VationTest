@@ -8,7 +8,7 @@ import Styles from './Styles';
 const Button = (props) => {
   return (
     <TouchableOpacity
-      onPress={() => props.handleButton()}
+      onPress={props.handleButton ? () => props.handleButton() : null}
       style={[
         Styles.buttonContainer,
         {backgroundColor: props.buttonColor},
@@ -22,7 +22,9 @@ const Button = (props) => {
           style={Styles.icon}
         />
       )}
-      <Text style={Styles.buttonLabel}>{props.label}</Text>
+      <Text style={[Styles.buttonLabel, props.labelStyle && props.labelStyle]}>
+        {props.label}
+      </Text>
     </TouchableOpacity>
   );
 };
@@ -34,6 +36,7 @@ Button.propTypes = {
     PropTypes.array,
   ]),
   label: PropTypes.string,
+  labelStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   iconName: PropTypes.string,
   iconColor: PropTypes.string,
   handleButton: PropTypes.func,
@@ -42,6 +45,7 @@ Button.propTypes = {
 Button.defaultProps = {
   buttonColor: 'red',
   buttonContainerStyle: null,
+  labelStyle: null,
   label: 'Label Text',
   iconName: null,
   iconColor: 'white',
