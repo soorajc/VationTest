@@ -8,6 +8,7 @@ import Styles from './Styles';
 const Button = (props) => {
   return (
     <TouchableOpacity
+      onPress={() => props.handleButton()}
       style={[
         Styles.buttonContainer,
         {backgroundColor: props.buttonColor},
@@ -35,6 +36,7 @@ Button.propTypes = {
   label: PropTypes.string,
   iconName: PropTypes.string,
   iconColor: PropTypes.string,
+  handleButton: PropTypes.func,
 };
 
 Button.defaultProps = {
@@ -43,6 +45,7 @@ Button.defaultProps = {
   label: 'Label Text',
   iconName: null,
   iconColor: 'white',
+  handleButton: null,
 };
 
 export default Button;

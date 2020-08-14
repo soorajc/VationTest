@@ -11,20 +11,26 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import WelcomeScreen from './src/screens/welcome';
 import LoginScreen from './src/screens/login';
+import HomeScreen from './src/screens/home';
 
 const Stack = createStackNavigator();
 
 const StackConfig = () => {
   return (
-    <Stack.Navigator initialRouteName="Login" headerMode="none">
+    <Stack.Navigator initialRouteName="Welcome" headerMode="none">
       <Stack.Screen
-        name="Home"
+        name="Welcome"
         component={WelcomeScreen}
         options={{headerTitle: null}}
       />
       <Stack.Screen
         name="Login"
         component={LoginScreen}
+        options={{headerTitle: null}}
+      />
+      <Stack.Screen
+        name="Home"
+        component={HomeScreen}
         options={{headerTitle: null}}
       />
     </Stack.Navigator>

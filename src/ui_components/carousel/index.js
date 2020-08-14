@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, ImageBackground, Image, TouchableOpacity} from 'react-native';
+import PropTypes from 'prop-types';
 import Swiper from 'react-native-swiper';
 
 import carouselImages from './dummyImages';
@@ -7,7 +8,7 @@ import backArrow from '../../assets/arrowleft.png';
 
 import Styles from './Styles';
 
-const Carousel = () => {
+const Carousel = (props) => {
   return (
     <View style={Styles.carouselContainer}>
       <Swiper
@@ -21,7 +22,9 @@ const Carousel = () => {
             key={index}
             source={image}
             style={Styles.carouselImage}>
-            <TouchableOpacity style={Styles.backButton}>
+            <TouchableOpacity
+              onPress={() => props.handleBackButton()}
+              style={Styles.backButton}>
               <Image source={backArrow} />
             </TouchableOpacity>
           </ImageBackground>
@@ -29,6 +32,14 @@ const Carousel = () => {
       </Swiper>
     </View>
   );
+};
+
+Carousel.propTypes = {
+  handleBackButton: PropTypes.func,
+};
+
+Carousel.defaultProps = {
+  handleBackButton: null,
 };
 
 export default Carousel;
